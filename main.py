@@ -5,7 +5,7 @@ imcap.set(3, 640) # set width as 640
 imcap.set(4, 480) # set height as 480
 
 # importing cascade
-faceCascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
+faceCascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_eye.xml")
 
 while True:
     success, img = imcap.read() # capture frame from video
